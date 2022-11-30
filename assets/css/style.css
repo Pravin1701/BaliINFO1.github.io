@@ -1,9 +1,4 @@
-/**
-* Template Name: Squadfree - v4.7.0
-* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 /*--------------------------------------------------------------
 # General
@@ -326,26 +321,29 @@ nav.logo{
   width: 10px ;
 }
 .content{
-  text-align: center;
+  justify-content: center;
+  padding: 2vw;
 }
 .content h1{
   margin: 0 0 25px 0;
   font-family: 'Reblox';
-  font-size: 200px;
-  font-weight: 700;
-  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 15vw;
+  line-height: 6vw;
   text-transform: uppercase;
   color: #fff;
   text-shadow: transparent;
 }
 
 .content h2{
+  display: flex;
+  justify-content: center;
   color: #fff;
   font-family: 'Reblox';
   margin-bottom: 20px;
-  font-size: 80px;
+  font-size: 10vw;
   text-transform: uppercase;
-  font-weight: 800;
   text-shadow: transparent;
 }
 .content h1:hover{
